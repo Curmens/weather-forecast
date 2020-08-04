@@ -1,0 +1,157 @@
+/* initialize reset */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width: 450px;
+    color: white;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    /* background-color: black; */
+}
+
+.search-bar{
+    width: 430px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*location Search Box */
+.search-bar{
+    margin: 0;
+    top: 4rem;
+    height: 30px;
+}
+.search-bar {
+    align-items: center;
+    border-bottom: 3px solid #8a44d5;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding: 12px 15px;
+    transition: all 0.5s ease 0s;
+}
+.search-bar:hover, .search-bar:focus {
+  background: #853cd3;
+}
+.search-bar button,
+.search-bar input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  outline: 0;
+}
+
+.search-bar button:hover{
+    color: #010516;
+    cursor: pointer;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.weather-header{
+    background-color: #010516;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
+    /* padding: 1rem; */
+}
+
+.data-text{
+    margin: auto;
+}
+
+.weather-summary{
+    font-size: 13px;
+    margin: auto;
+    line-height: normal;
+}
+
+.temp{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1px;
+    padding: 0px;
+    line-height: 1;
+}
+
+.cast{
+    margin-bottom: 1px;
+}
+
+.data-next{
+    background-color: #131b3d;
+    border-radius: 0 0 10px 10px;
+}
+
+.title, .location{
+    margin-bottom: 0;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.day{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.data-summary{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.temp-high p, .temp-low p{
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.data-icon{
+    margin-right: 9px;
+}
+
+.future-data{
+    /* margin-bottom: 10px; */
+    height: 75px;
+}
+
+.high-low{
+    margin: auto;
+}
+
+
+.w1, .w2, .w3{
+    margin: auto;
+}
+
