@@ -1,2 +1,2 @@
-# weather-maps
-weather map with Laravel and Vue
+# weather-cast
+weather cast with Laravel and Vue
